@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 .container {
@@ -75,6 +76,63 @@ body {
 .shape{
     font-family: "Grey Qo",cursive;
     font-size:90px;
+}
+content-wrapper {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.section-title {
+    color: #e6533c;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.circle-image {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+}
+
+.circle-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.image-description {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
 }
 /* Responsive Design */
 /* @media (min-width: 768px) {

@@ -9,53 +9,12 @@
     .btn_container{
         display:none;
     }
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.card {
-    box-sizing: border-box;
-    width: 48%;
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.text-card {
-    flex: 1;
-}
-
-.image-card {
-    flex: 1;
-    text-align: center;
-}
-
-.image-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Responsive Design */
-@media (max-width: 500px) {
-    .banner {
-        flex-direction: column;
+ .section-title {
+        font-size: 28px;
     }
-    .card {
-        width: 100%;
+
+    .image-description {
+        font-size: 14px;
     }
-}
 
 }
